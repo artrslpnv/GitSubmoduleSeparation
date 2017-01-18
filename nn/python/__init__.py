@@ -12,11 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-"""Random forest implementation in tensorflow."""
+"""Module for deprecated ops in tf.nn."""
+
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-
-# pylint: disable=unused-import
-from tensorflow.contrib.tensor_forest.data import data_ops
-# pylint: enable=unused-import
